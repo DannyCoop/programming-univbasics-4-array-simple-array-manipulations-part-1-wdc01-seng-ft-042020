@@ -11,11 +11,7 @@ def using_pop array
 end
 
 def pop_with_args array
-  count = 1
-  while count <= 3
-    array.pop
-    count += 1
-  end
+  2.times {array.pop}
 end
 
 def using_shift array
