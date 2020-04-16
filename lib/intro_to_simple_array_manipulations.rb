@@ -21,5 +21,5 @@ end
 
 def shift_with_args array
   number = 2
-  array.pop(2)
+  array.shift(2)
 end
